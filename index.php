@@ -110,9 +110,10 @@
 				<script>
 					$(function () {
 						$.each($(".instagramfeed li img"), function (){
-							$(this).load(function (){
-								if ($(this).width() > $(this).height())
-									$(this).addClass("fullheight");
+							var _img = $(this);
+							$(this).ready(function (){
+								if (_img.width() > _img.height())
+									_img.addClass("fullheight");
 							});
 						});
 					});
