@@ -1,0 +1,201 @@
+/* Tablet
+   ========================================================================== */
+
+@media screen and (max-width: 780px){
+
+	h2{font-size: 20px;}
+
+	a.bot{
+		width: 250px;
+	    margin: 20px 10px 0;
+	}
+
+	header .wrap{ margin: 80px auto;}
+
+	header hgroup{
+		text-align: center;
+		padding-top: 150px;
+		padding-left: 0;
+		background: url(../img/icon-converse.png) no-repeat center top transparent;
+		height: auto;
+		width: 100%;
+	}
+
+	header h1{ width: 251px; height: 23px; margin: 0 auto; }
+	header h1 a{ background-image: url(../img/logo3.png);}
+
+	header hgroup br{display: block;}
+
+	header h2{line-height: 1em;}
+
+
+
+	#donar-form br{display: none;}
+
+	#donar-form,
+	#donar-form form,
+	#donar-form ul {
+		width: 97%;
+	    margin: 0 auto;
+	    padding: 0;
+	    border: 0;
+	}
+
+	#donar-form ul li{width: 50%; margin: 0; padding: 0; border: 0;}
+		#donar-form ul li input[type="radio"] + label span{ width: 90%; margin: 10px 0;}
+	#donar-form ul li:first-child{ width: 100%;  margin: 0;}
+		#donar-form ul li:first-child input[type="radio"] + label span{ width: 95%;}
+
+	#logo-falp-fijo{
+		height: 65px;
+	    width: 125px;
+	    right: 0px;
+	}
+
+
+	#hashtag-social ul li{
+		width: 33.33333333%;
+	}
+
+	#hashtag-social ul li.img-7,
+	#hashtag-social ul li.img-8 {
+		display: none;
+	}
+
+	#video-corto h3,
+	#video-corto p,
+	#video-corto .social{
+		display: none;
+	}
+	
+	#info-video-mobile {
+		border-bottom: 2px solid #EEEAEA;
+	}
+
+	#info-video-mobile,
+	#info-video-mobile a {
+		color: #E487B2;
+		display: block;
+	}
+
+	#info-video-mobile .social {
+		text-align: center;
+	}
+
+	#info-video-mobile .social a{
+		display: inline-block;
+		overflow: hidden;
+		width: 42px;
+		height: 41px;
+		text-indent: -999px;
+		z-index: 1000;
+		background: url(../img/bn-tw-pink.png) no-repeat 0 0 transparent;
+		margin: 5px;
+	}
+
+	#info-video-mobile .social a.f{
+		background: url(../img/bn-fb-pink.png) no-repeat 0 0 transparent;
+	}
+
+
+	#about .blabla,
+	#about .about-logo {
+		width: auto;
+		float: none;
+		margin: auto;
+		padding: 0px;
+		text-align: center;
+		max-width: inherit;
+	}
+
+	#about .about-logo {
+		margin-bottom: 35px;
+	}
+
+	#about .about-logo img {
+		max-width: 256px;
+	}
+
+	#about .blabla {
+		max-width: 400px;
+	}
+
+	#about .blabla a {
+		margin-top: 30px;
+    	display: block;
+	}
+
+	footer .logo-falp-bn {
+		margin: auto;
+    	float: none;
+	}
+
+	footer .converse {
+		text-align: center;
+		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width: 781px) and (max-width: 877px) {
+	#about .blabla,
+	#about .about-logo {
+		width: auto;
+		float: none;
+		margin: auto;
+		padding: 0px;
+		text-align: center;
+		max-width: inherit;
+	}
+
+	#about .about-logo {
+		margin-bottom: 35px;
+	}
+
+	#about .about-logo img {
+		max-width: 256px;
+	}
+
+	#about .blabla {
+		max-width: 400px;
+	}
+
+	#about .blabla a {
+		margin-top: 30px;
+    	display: block;
+	}
+}
+
+@media screen and (min-width: 781px) and (max-width: 920px) {
+	#donar-form ul li {
+		width: 33.33333%;
+		margin: 0;
+	}
+
+	#donar-form ul li.first,
+	#donar-form ul li.second {
+		width: 50%;
+	}
+
+	#donar-form ul li input[type="radio"] + label span{ width: 90%!important; margin: 10px 0;}
+}
+
+
+/* SMARTPHONE
+   ========================================================================== */
+
+@media screen and (max-width: 480px){
+
+	#hashtag-social ul li{width: 50%;}
+	#about .blabla {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+	#hashtag-social .cortina {
+		top: 0;
+	}
+}
+
+
+

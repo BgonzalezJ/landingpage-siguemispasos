@@ -1,0 +1,401 @@
+/*
+#SIGUEMISPASOS 2016
+Diseñado por Dai - desarrollo de Dai y Soda Studio
+*/
+
+/* Layout General
+   ========================================================================== */
+
+*{
+	margin: 0:
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+h1, h2, h3, h4{
+	line-height: 1.5em;
+	font-family: 'Arvo', serif;
+}
+
+h2{font-size: 30px;}
+h3{font-size: 20px;}
+
+p{
+	line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {color: #665A4C; text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+header, footer, div.slide{
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.wrap{
+	display: block;
+	max-width: 960px;
+	margin: 80px auto;
+	position: relative;
+	text-align: center;
+	padding: 0px 15px;
+	overflow: hidden;
+}
+
+a.bot{
+	display: inline-block;
+	width: 296px;
+	height: 41px;
+	margin: 30px 10px 0;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #fff;
+	font-size: 20px;
+	padding-top: 15px;
+	color: #fff;
+	text-align: center;
+	border-radius: 35px 35px 35px 35px;
+	-moz-border-radius: 35px 35px 35px 35px;
+	-webkit-border-radius: 35px 35px 35px 35px;
+	background-color: none;
+	text-indent: 0;
+}
+
+a.bot:hover{
+	color: #E487B2;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+.slide .cortina{
+    z-index: 500;
+    position: absolute;
+    display: block;
+    top: 50px;
+    width: 100%;
+}
+
+
+/* Header
+   ========================================================================== */
+
+header{
+	background-color: #E487B2;
+	color: #fff;
+}
+
+header .wrap{
+	margin: 150px auto;
+}
+
+header hgroup{
+	text-align: left;
+	padding-left: 70px;
+	background: url(../img/icon-converse.png) no-repeat 0 0 transparent;
+	height: 144px;
+	width: 620px;
+	margin: 0 auto;
+}
+
+header hgroup br{display: none;}
+
+header h1{
+	display: block;
+	width: 617px;
+	height: 56px;
+	margin: 0;
+	position: relative;
+}
+
+header h1 a{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/logo.png);
+	text-indent: -99999px;
+}
+
+header h2{line-height: 0.5em;}
+
+
+
+/* Donaciones Tipo
+   ========================================================================== */
+
+#donar-form{ color: #E487B2; }
+
+#donar-form ul{
+	display: block;
+	overflow: hidden;
+	list-style: none;
+}
+
+#donar-form ul li{
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+#donar-form ul li input[type=radio] { display: none; }
+
+#donar-form ul li input[type="radio"] + label span {
+	display: inline-block;
+	margin: 0; 
+	padding: 10px 0 5px 0; 
+	border:0;
+	vertical-align:middle;
+	width: 150px;
+	height: 30px;
+	background-color: #F7F7F7;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#donar-form ul li input[type="radio"]:checked + label span {
+	background-color: #E487B2;
+	color: #fff;
+}
+
+#donar-form a.bot{
+	border-style: solid;
+	border-color: #E487B2;
+	color: #E487B2;
+	clear: both;
+
+	opacity: 0.5; 
+	pointer-events: none;
+	cursor: default;
+}
+
+#donar-form a.bot:hover{
+	color: #fff;
+	background-color: #E487B2;
+}
+
+
+/* Instagram
+   ========================================================================== */
+
+
+#hashtag-social{
+	background-color: #000;
+}
+
+#hashtag-social h3{
+	text-align: center;
+}
+
+#hashtag-social .hashtag {
+	max-width: 569px;
+	width: 100%;
+}
+
+#hashtag-social ul{
+	margin: 0;
+	padding: 0;
+	border:0;
+	list-style: none;
+	opacity: 0.6;
+	overflow: hidden;
+}
+
+#hashtag-social ul li{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border:0;
+	float: left;
+	width: 25%;
+	height: auto;
+	line-height: 0;
+}
+
+#hashtag-social ul li:before {
+	padding-top: 100%;
+	content: '';
+	display: block;
+}
+
+#hashtag-social ul li img{
+	top: 0px;
+	width: 100%;
+	height: auto;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+#hashtag-social ul li img.fullheight {
+	height: 100%;
+    width: auto;
+    left: -50%;
+    right: -50%;
+}
+
+
+
+/* Video
+   ========================================================================== */
+
+#video-corto{
+	height: 500px;
+	background: url(../img/bg-video.jpg) no-repeat center center #000;
+}
+
+#video-corto .play-video{
+	display: block;
+	overflow: hidden;
+	width: 110px;
+	height: 110px;
+	text-indent: -9999px;
+	z-index: 1000;
+	background: url(../img/play.png) no-repeat 0 0 transparent;
+	line-height: 0;
+	margin: 0 auto 30px;
+}
+
+#video-corto h3{ line-height: 0; }
+
+#video-corto .social{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#video-corto .social p,
+#video-corto .social a{
+	display: inline-block;
+	float: left;
+	padding: 0 10px 0 0;
+	line-height: 0;
+}
+
+#video-corto .social a{
+	display: block;
+	overflow: hidden;
+	width: 30px;
+	height: 30px;
+	text-indent: -999px;
+	z-index: 1000;
+	background: url(../img/bn-tw.png) no-repeat 0 0 transparent;
+	margin-top: 5px;
+}
+
+#video-corto .social a.f{
+	background: url(../img/bn-fb.png) no-repeat 0 0 transparent;
+}
+
+#info-video-mobile {
+	display: none;
+}
+
+
+/* About
+   ========================================================================== */
+
+#about .wrap{
+	text-align: left;
+	color: #E487B2;
+}
+
+#about .about-logo{
+	float: left;
+	clear: left;
+	width: 50%;
+	padding: 0px 15px;
+	max-width: 334px;
+}
+
+
+#about .about-logo img{
+	width: 100%;
+	max-width: 334px;
+	height: auto;
+}
+
+#about .blabla{
+	float: left;
+	padding: 0px 15px;
+	width: 50%;
+	margin-left: 30px;
+    margin-top: 15px;
+}
+
+#about a {
+	color: #009FE8;
+}
+
+/* Footer
+   ========================================================================== */
+
+footer{
+	background-color: #E487B2;
+}
+
+footer .logo-falp-bn{
+	display: block;
+	float: left;
+	width: 139px;
+	height: 73px;
+	overflow: hidden;
+	background-image: url(../img/logo-falp-blanco.png);
+	text-indent: -99999px;
+}
+
+footer .converse {
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: right;
+}
+
+footer .converse img {
+	vertical-align: middle;
+}
+
+footer .converse span {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+footer .converse span.nombre-marca{display: none;}
+
+footer .micro{
+	display: block;
+    padding: 40px 0 0 0;
+    clear: both;
+    font-size: 12px;
+}
+
+
+#logo-falp-fijo{
+	position: fixed;
+	display: block;
+	overflow: hidden;
+	width: 140px;
+	height: 71px;
+	top: 0;
+	right: 50px;
+	text-indent: -9999px;
+	z-index: 1000;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+	background: url(../img/Falp-etiqueta.png) no-repeat 0 0 transparent;
+}

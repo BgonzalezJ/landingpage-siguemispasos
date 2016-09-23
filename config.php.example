@@ -1,0 +1,8 @@
+<?php
+	$config = (object) [
+		"host" => "",
+		"database" => "",
+		"user" => "",
+		"password" => ""
+	];
+?>
