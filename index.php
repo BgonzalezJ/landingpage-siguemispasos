@@ -52,23 +52,23 @@
 				<form>
 					<ul>
 						<li class="first">
-							<input type="radio" id="m1" class="valor" name="monto" value="1" />
+							<input type="radio" id="m1" class="valor" name="monto" value="1" data-url="https://siguemispasos.jumpseller.com/1000" />
   							<label for="m1"><span>$1.000</span></label>
   						</li>
   						<li class="second">
-							<input type="radio" id="m2" class="valor" name="monto" value="2" />
+							<input type="radio" id="m2" class="valor" name="monto" value="2" data-url="https://siguemispasos.jumpseller.com/5000" />
   							<label for="m2"><span>$5.000</span></label>
   						</li>
   						<li>
-							<input type="radio" id="m3" class="valor" name="monto" value="3" />
+							<input type="radio" id="m3" class="valor" name="monto" value="3" data-url="https://siguemispasos.jumpseller.com/10000" />
   							<label for="m3"><span>$10.000</span></label>
   						</li>
   						<li>
-							<input type="radio" id="m4" class="valor" name="monto" value="4" />
+							<input type="radio" id="m4" class="valor" name="monto" value="4" data-url="https://siguemispasos.jumpseller.com/15000" />
   							<label for="m4"><span>$15.000</span></label>
   						</li>
   						<li>
-							<input type="radio" id="m5" class="valor" name="monto" value="5" />
+							<input type="radio" id="m5" class="valor" name="monto" value="5" data-url="https://siguemispasos.jumpseller.com/30000" />
   							<label for="m5"><span>$30.000</span></label>
   						</li>
 					</ul>
@@ -77,14 +77,25 @@
 				<!-- Para interacción de Checkbox -->
 				<script> 
 					$(function () {
-						$( "input" ).change(function() {
+						$( ".valor" ).change(function() {
 	  						var $input = $( this );
-
-							if($(".valor").is(':checked')) {  
+							if($input.is(':checked')) {  
 					            $('.bot.pagar').css({'opacity':'0.9', 'pointer-events': 'auto', 'cursor': 'pointer'});
+					            $('.bot.pagar').attr("href", $input.data("url"));
 					        } else {  
 					            $('.bot.pagar').css({'opacity':'0.5', 'pointer-events': 'none', 'cursor': 'default'});
+					            $('.bot.pagar').attr("href", "");
 					        }
+				    	});
+
+				    	$(".bot.pagar").click(function () {
+				    		if ($(this).attr("href").length == 0){
+				    			$('html, body').animate({
+			    					scrollTop: $("#donar-form").offset().top - 40
+								}, 1000);
+				    			return false;
+				    		}
+				    		return true;
 				    	});
 					});
 
