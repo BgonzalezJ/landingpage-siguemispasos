@@ -16,13 +16,13 @@
 		text-align: center;
 		padding-top: 150px;
 		padding-left: 0;
-		background: url(../img/icon-converse.png) no-repeat center top transparent;
+		background: url(../images/icon-converse.png) no-repeat center top transparent;
 		height: auto;
 		width: 100%;
 	}
 
 	header h1{ width: 251px; height: 23px; margin: 0 auto; }
-	header h1 a{ background-image: url(../img/logo3.png);}
+	header h1 a{ background-image: url(../images/logo3.png);}
 
 	header hgroup br{display: block;}
 
@@ -89,12 +89,12 @@
 		height: 41px;
 		text-indent: -999px;
 		z-index: 1000;
-		background: url(../img/bn-tw-pink.png) no-repeat 0 0 transparent;
+		background: url(../images/bn-tw-pink.png) no-repeat 0 0 transparent;
 		margin: 5px;
 	}
 
 	#info-video-mobile .social a.f{
-		background: url(../img/bn-fb-pink.png) no-repeat 0 0 transparent;
+		background: url(../images/bn-fb-pink.png) no-repeat 0 0 transparent;
 	}
 
 

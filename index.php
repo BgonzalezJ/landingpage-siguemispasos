@@ -20,7 +20,7 @@
 		<!-- Open Graph -->
     	<meta property="og:title" content="#SIGUEMISPASOS" />
     	<meta property="og:description" content="Ayúdanos a prevenir el cáncer de mamas con un aporte voluntario" />
-    	<meta property="og:image" content="http://url/img/og.png" />
+    	<meta property="og:image" content="http://siguemispasos.cl/images/og.png" />
     <!-- / Open Graph -->
 
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -106,7 +106,7 @@
 		<div id="hashtag-social" class="slide">
 			<div class="cortina">
 				<div class="wrap">
-					<img src="img/hashtag.png" class="hashtag" />
+					<img src="images/hashtag.png" class="hashtag" />
 					<h3>Ve las imágenes de quienes están apoyando nuestra causa.</h3>
 					<a class="bot" href="https://www.instagram.com/explore/tags/siguemispasos/" target="_blank">Ir a Instagram</a>
 				</div>
@@ -168,7 +168,7 @@
 		<div id="about" class="slide">
 			<div class="wrap">
 				<div class="about-logo">
-					<img src="img/Falp.png"/>
+					<img src="images/Falp.png"/>
 				</div>
 				<div class="blabla">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a dignissim risus. Maecenas id condimentum purus, id varius velit Phasellus.</p>
@@ -186,7 +186,7 @@
 					<p>
 						<span>Con el apoyo de: </span>
 						<span class="nombre-marca">converse</span>
-						<img src="img/converse.png" />
+						<img src="images/converse.png" />
 					</p>
 				</div>
 				<p class="micro">Falp 2016 © Todos los derechos reservados.</p>
@@ -200,7 +200,7 @@
 		$(function (){
 			$(".social a").click(function (e) {
 				e.preventDefault();
-				var link = "http://url";
+				var link = "http://siguemispasos.cl/";
 				if ($(this).hasClass("t")) {
 					mensaje = "Ayúdanos a prevenir el cáncer de mamas con un aporte voluntario";
 					url = encodeURIComponent(link);
