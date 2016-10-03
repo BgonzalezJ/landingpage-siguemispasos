@@ -130,6 +130,22 @@ header h1 a{
 
 header h2{line-height: 0.5em;}
 
+header .accesos{
+	display: block;
+	clear: both;
+}
+
+header .social{
+	display: inline-block;
+	clear: both;
+    margin: 30px auto 0;
+}
+
+header .social p{
+	float: left;
+	margin: 6px;
+}
+
 
 
 /* Donaciones Tipo
@@ -282,14 +298,15 @@ header h2{line-height: 0.5em;}
 }
 
 #video-corto .social p,
-#video-corto .social a{
+
+.social a{
 	display: inline-block;
 	float: left;
 	padding: 0 10px 0 0;
 	line-height: 0;
 }
 
-#video-corto .social a{
+.social a{
 	display: block;
 	overflow: hidden;
 	width: 30px;
@@ -300,7 +317,7 @@ header h2{line-height: 0.5em;}
 	margin-top: 5px;
 }
 
-#video-corto .social a.f{
+.social a.f{
 	background: url(../images/bn-fb.png) no-repeat 0 0 transparent;
 }
 
