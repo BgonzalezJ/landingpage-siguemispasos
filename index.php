@@ -45,9 +45,15 @@
 					<h1><a href="">#SIGUEMISPASOS</a></h1>
 					<h2>Ayúdanos a prevenir el <br>cáncer de mama!</h2>
 				</hgroup>
-				
-				<a id="go-donar" class="bot" href="#donar-form">Haz tu donación</a>
-				<a id="go-video" class="bot" href="#video-corto">Ver cortometraje</a>
+				<div class="accesos">
+					<a id="go-donar" class="bot" href="#donar-form">Haz tu donación</a>
+					<a id="go-video" class="bot" href="#video-corto">Ver cortometraje</a>
+				</div>
+				<div class="social">
+					<p>Difunde esta causa en</p>
+					<a class="btn f" href=""></a>
+					<a class="btn t" href=""></a>
+				</div>
 				<script>
 					$('a.bot').click(function(e){
 						e.preventDefault();
