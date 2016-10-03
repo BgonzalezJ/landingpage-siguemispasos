@@ -63,6 +63,9 @@
 			</div>
 		</header>
 
+		<!-- Ocultaremos este contenido mientras no tengamos WebPay -->
+		<!--
+
 		<div id="donar-form" class="slide">
 			<div class="wrap">
 				<h2>Ayúdanos a prevenir el cáncer de mama <br>con un aporte voluntario.</h2>
@@ -92,7 +95,9 @@
 					</ul>
 					<a class="bot pagar" href="">Realizar donación</a>
 				</form>
+				-->
 				<!-- Para interacción de Checkbox -->
+				<!-- 
 				<script> 
 					$(function () {
 						$( ".valor" ).change(function() {
@@ -120,6 +125,7 @@
 				</script>
 			</div>
 		</div>
+		-->
 
 		<div id="hashtag-social" class="slide">
 			<div class="cortina">
