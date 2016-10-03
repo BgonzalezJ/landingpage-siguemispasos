@@ -19,9 +19,9 @@
 
 		<!-- Open Graph -->
     	<meta property="og:title" content="#SIGUEMISPASOS" />
-    	<meta property="og:description" content="Ayúdanos a prevenir el cáncer de mamas con un aporte voluntario" />
+    	<meta property="og:description" content="Ayúdanos a prevenir el cáncer de mama con un aporte voluntario" />
     	<meta property="og:image" content="http://siguemispasos.cl/images/og.png" />
-    <!-- / Open Graph -->
+    	<!-- / Open Graph -->
 
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	</head>
@@ -31,7 +31,7 @@
 			<div class="wrap">
 				<hgroup>
 					<h1><a href="">#SIGUEMISPASOS</a></h1>
-					<h2>Ayúdanos a prevenir el <br>cáncer de mamas!</h2>
+					<h2>Ayúdanos a prevenir el <br>cáncer de mama!</h2>
 				</hgroup>
 				
 				<a id="go-donar" class="bot" href="#donar-form">Haz tu donación</a>
@@ -47,7 +47,7 @@
 
 		<div id="donar-form" class="slide">
 			<div class="wrap">
-				<h2>Ayúdanos a prevenir el cáncer de mamas <br>con un aporte voluntario.</h2>
+				<h2>Ayúdanos a prevenir el cáncer de mama <br>con un aporte voluntario.</h2>
 				<p>¿Cuánto te gustaría aportar?</p>
 				<form>
 					<ul>
@@ -133,11 +133,13 @@
 			</div>
 		</div>
 
+		<!-- Ocultaremos este contenido mientras no exista -->
+		<!--
 		<div id="video-corto" class="slide">
 			<div class="cortina">
 				<div class="wrap">
 					<a class="play-video" href=""></a>
-					<h3>Es tiempo de prevenir el cáncer de mamas</h3>
+					<h3>Es tiempo de prevenir el cáncer de mama</h3>
 					<p>Ve el corto de Matías Bize</p>
 					<div class="social">
 						<p>Compártelo ahora con tus amigos</p>
@@ -147,6 +149,7 @@
 				</div>
 			</div>
 			<div>
+			-->
 				<!-- aquí pondré el video de bg -->
 			</div>
 		</div>
@@ -154,7 +157,7 @@
 		<div id="info-video-mobile">
 			<div class="wrap">
 				<a class="play-video" href=""></a>
-				<h3>Es tiempo de prevenir el cáncer de mamas</h3>
+				<h3>Es tiempo de prevenir el cáncer de mama</h3>
 				<p>Ve el corto de Matías Bize</p>
 				<div class="social">
 					<p>Compártelo ahora con tus amigos</p>
@@ -171,7 +174,7 @@
 					<img src="images/Falp.png"/>
 				</div>
 				<div class="blabla">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a dignissim risus. Maecenas id condimentum purus, id varius velit Phasellus.</p>
+					<p>FALP lleva más de 60 años trabajando en la prevención, investigación, docencia, detección temprana, diagnóstico, tratamiento y protección financiera y beneficencia del cáncer. FALP cuenta con una amplia experiencia en la lucha contra el cáncer y prestigio a nivel nacional e internacional.</p>
 					<p><a href="">Conoce más de Falp aquí</a></p>
 				</div>
 			</div>
@@ -202,7 +205,7 @@
 				e.preventDefault();
 				var link = "http://siguemispasos.cl/";
 				if ($(this).hasClass("t")) {
-					mensaje = "Ayúdanos a prevenir el cáncer de mamas con un aporte voluntario";
+					mensaje = "Ayúdanos a prevenir el cáncer de mama con un aporte voluntario";
 					url = encodeURIComponent(link);
 
 					var urlTwitter = 'https://twitter.com/intent/tweet?text=';
