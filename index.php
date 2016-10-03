@@ -46,8 +46,11 @@
 					<h2>Ayúdanos a prevenir el <br>cáncer de mama!</h2>
 				</hgroup>
 				<div class="accesos">
+					<a id="go-donar" class="bot" href="https://www.darcontarjeta.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=3388272" target="_blank">Haz tu donación</a>
+					<!--
 					<a id="go-donar" class="bot" href="#donar-form">Haz tu donación</a>
 					<a id="go-video" class="bot" href="#video-corto">Ver cortometraje</a>
+					-->
 				</div>
 				<div class="social">
 					<p>Difunde esta causa en</p>
