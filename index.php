@@ -181,7 +181,7 @@
 			</div>
 		</div>
 
-		<div id="info-video-mobile">
+		<!-- <div id="info-video-mobile">
 			<div class="wrap">
 				<a class="play-video" href=""></a>
 				<h3>Es tiempo de prevenir el cáncer de mama</h3>
@@ -192,7 +192,7 @@
 					<a class="btn t" href=""></a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 
 		<div id="about" class="slide">
