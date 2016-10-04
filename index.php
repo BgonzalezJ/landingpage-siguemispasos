@@ -57,14 +57,12 @@
 					<a class="btn f" href=""></a>
 					<a class="btn t" href=""></a>
 				</div>
-				<!--
 				<script>
 					$('a.bot').click(function(e){
 						e.preventDefault();
 						$('html, body').stop().animate({scrollTop: $($(this).attr('href')).offset().top}, 1000);
 					});
 				</script>
-				-->
 			</div>
 		</header>
 
