@@ -28,7 +28,7 @@
 		<!-- Open Graph -->
     	<meta property="og:title" content="#SIGUEMISPASOS" />
     	<meta property="og:description" content="Ayúdanos a prevenir el cáncer de mama con un aporte voluntario" />
-    	<meta property="og:image" content="http://siguemispasos.cl/images/og.png" />
+    	<meta property="og:image" content="http://www.siguemispasos.cl/images/sigue-og.png" />
     	<!-- / Open Graph -->
 
     	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
