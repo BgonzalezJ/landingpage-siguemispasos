@@ -50,7 +50,7 @@
 					<!--
 					<a id="go-donar" class="bot" href="#donar-form">Haz tu donación</a>
 					-->
-					<a id="go-video" class="bot down" href="#video-corto">Ver cortometraje</a>
+					<a id="go-video" class="bot down" href="#video-corto">Ver video</a>
 				</div>
 				<div class="social">
 					<p>Difunde esta causa en</p>
