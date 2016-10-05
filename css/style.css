@@ -416,3 +416,13 @@ footer .micro{
 	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 	background: url(../images/Falp-etiqueta.png) no-repeat 0 0 transparent;
 }
+
+/* Video FB */
+
+#video-fb {
+	display: none;
+}
+
+#video-fb * {
+	width: 100%!important;
+}

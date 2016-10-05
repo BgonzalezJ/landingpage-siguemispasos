@@ -91,6 +91,7 @@
 		z-index: 1000;
 		background: url(../images/bn-tw-pink.png) no-repeat 0 0 transparent;
 		margin: 5px;
+		float: none;
 	}
 
 	#info-video-mobile .social a.f{

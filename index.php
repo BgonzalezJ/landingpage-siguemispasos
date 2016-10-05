@@ -163,7 +163,7 @@
 		</div>
 
 		<!-- Ocultaremos este contenido mientras no exista -->
-		<!--
+		
 		<div id="video-corto" class="slide">
 			<div class="cortina">
 				<div class="wrap">
@@ -172,29 +172,29 @@
 					<p>Ve el corto de Matías Bize</p>
 					<div class="social">
 						<p>Compártelo ahora con tus amigos</p>
-						<a class="btn f" href=""></a>
-						<a class="btn t" href=""></a>
+						<a class="btn f" href="" data-url="https://www.facebook.com/umbrocl/videos/1142777319087004/" ></a>
+						<a class="btn t" href="" data-url="https://www.facebook.com/umbrocl/videos/1142777319087004/"></a>
 					</div>
 				</div>
 			</div>
-			<div>
-			-->
-				<!-- aquí pondré el video de bg -->
-			</div>
 		</div>
 
-		<!-- <div id="info-video-mobile">
+		<div id="video-fb">
+			<div class="fb-video" data-href="https://www.facebook.com/umbrocl/videos/1142777319087004/" data-width="500" data-show-text="false"></div>	
+		</div>
+
+		<div id="info-video-mobile">
 			<div class="wrap">
 				<a class="play-video" href=""></a>
 				<h3>Es tiempo de prevenir el cáncer de mama</h3>
 				<p>Ve el corto de Matías Bize</p>
 				<div class="social">
 					<p>Compártelo ahora con tus amigos</p>
-					<a class="btn f" href=""></a>
-					<a class="btn t" href=""></a>
+					<a class="btn f" href="" data-url="https://www.facebook.com/umbrocl/videos/1142777319087004/" ></a>
+					<a class="btn t" href="" data-url="https://www.facebook.com/umbrocl/videos/1142777319087004/" ></a>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
 
 		<div id="about" class="slide">
@@ -226,13 +226,45 @@
 		</footer>
 
 		<div id="logo-falp-fijo">Por FALP</div>
+
+
+		<div id="fb-root"></div>
+
 	</body>
 
 	<script>
 		$(function (){
+
+			window.fbAsyncInit = function() {
+			    FB.init({
+			      appId      : '195167410910037',
+			      xfbml      : true,
+			      version    : 'v2.8'
+			    });
+			  };
+
+			  (function(d, s, id){
+			     var js, fjs = d.getElementsByTagName(s)[0];
+			     if (d.getElementById(id)) {return;}
+			     js = d.createElement(s); js.id = id;
+			     js.src = "//connect.facebook.net/en_US/sdk.js";
+			     fjs.parentNode.insertBefore(js, fjs);
+			   }(document, 'script', 'facebook-jssdk'));
+
+
+			$("#video-corto a.play-video").click(function (e) {
+				e.preventDefault();
+				$("#video-corto").fadeOut(function (){
+					$("#video-fb").fadeIn();	
+				});
+			}); 
+
 			$(".social a").click(function (e) {
 				e.preventDefault();
 				var link = "http://siguemispasos.cl/";
+				if ($(this).data("url"))
+					link = $(this).data("url");
+
 				if ($(this).hasClass("t")) {
 					mensaje = "Ayúdanos a prevenir el cáncer de mama con un aporte voluntario";
 					url = encodeURIComponent(link);
