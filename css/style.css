@@ -74,7 +74,7 @@ a.bot{
 }
 
 a.bot:hover{
-	color: #E487B2;
+	color: #f087b3;
 	background-color: #fff;
 	text-decoration: none;
 }
@@ -92,7 +92,7 @@ a.bot:hover{
    ========================================================================== */
 
 header{
-	background-color: #E487B2;
+	background-color: #f087b3;
 	color: #fff;
 }
 
@@ -151,7 +151,7 @@ header .social p{
 /* Donaciones Tipo
    ========================================================================== */
 
-#donar-form{ color: #E487B2; }
+#donar-form{ color: #f087b3; }
 
 #donar-form ul{
 	display: block;
@@ -184,14 +184,14 @@ header .social p{
 }
 
 #donar-form ul li input[type="radio"]:checked + label span {
-	background-color: #E487B2;
+	background-color: #f087b3;
 	color: #fff;
 }
 
 #donar-form a.bot{
 	border-style: solid;
-	border-color: #E487B2;
-	color: #E487B2;
+	border-color: #f087b3;
+	color: #f087b3;
 	clear: both;
 
 	opacity: 0.5; 
@@ -201,7 +201,7 @@ header .social p{
 
 #donar-form a.bot:hover{
 	color: #fff;
-	background-color: #E487B2;
+	background-color: #f087b3;
 }
 
 
@@ -329,7 +329,7 @@ header .social p{
 
 #about .wrap{
 	text-align: left;
-	color: #E487B2;
+	color: #f087b3;
 }
 
 #about .about-logo{
@@ -363,7 +363,7 @@ header .social p{
    ========================================================================== */
 
 footer{
-	background-color: #E487B2;
+	background-color: #f087b3;
 }
 
 footer .logo-falp-bn{
