@@ -168,30 +168,28 @@
 			<div class="cortina">
 				<div class="wrap">
 					<a class="play-video" href=""></a>
-					<h3>Es tiempo de prevenir el cáncer de mama</h3>
-					<p>Ve el corto de Matías Bize</p>
+					<h3>Video de FALP reúne a 14 reconocidas chilenas<br/>para hablar sobre el cáncer de mama</h3>
 					<div class="social">
 						<p>Compártelo ahora con tus amigos</p>
-						<a class="btn f" href="" data-url="https://www.facebook.com/umbrocl/videos/1142777319087004/" ></a>
-						<a class="btn t" href="" data-url="https://www.facebook.com/umbrocl/videos/1142777319087004/"></a>
+						<a class="btn f" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/" ></a>
+						<a class="btn t" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/"></a>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div id="video-fb">
-			<div class="fb-video" data-href="https://www.facebook.com/umbrocl/videos/1142777319087004/" data-width="500" data-show-text="false"></div>	
+			<div class="fb-video" data-href="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/" data-width="500" data-show-text="false"></div>	
 		</div>
 
 		<div id="info-video-mobile">
 			<div class="wrap">
 				<a class="play-video" href=""></a>
-				<h3>Es tiempo de prevenir el cáncer de mama</h3>
-				<p>Ve el corto de Matías Bize</p>
+				<h3>Video de FALP reúne a 14 reconocidas chilenas para hablar sobre el cáncer de mama</h3>
 				<div class="social">
 					<p>Compártelo ahora con tus amigos</p>
-					<a class="btn f" href="" data-url="https://www.facebook.com/umbrocl/videos/1142777319087004/" ></a>
-					<a class="btn t" href="" data-url="https://www.facebook.com/umbrocl/videos/1142777319087004/" ></a>
+					<a class="btn f" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/" ></a>
+					<a class="btn t" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/" ></a>
 				</div>
 			</div>
 		</div>
