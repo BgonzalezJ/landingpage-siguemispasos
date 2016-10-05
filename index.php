@@ -49,22 +49,20 @@
 					<a id="go-donar" class="bot" href="https://www.darcontarjeta.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=3388272" target="_blank">Haz tu donación</a>
 					<!--
 					<a id="go-donar" class="bot" href="#donar-form">Haz tu donación</a>
-					<a id="go-video" class="bot" href="#video-corto">Ver cortometraje</a>
 					-->
+					<a id="go-video" class="bot down" href="#video-corto">Ver cortometraje</a>
 				</div>
 				<div class="social">
 					<p>Difunde esta causa en</p>
 					<a class="btn f" href=""></a>
 					<a class="btn t" href=""></a>
 				</div>
-				<!--
 				<script>
-					$('a.bot').click(function(e){
+					$('a.down').click(function(e){
 						e.preventDefault();
 						$('html, body').stop().animate({scrollTop: $($(this).attr('href')).offset().top}, 1000);
 					});
 				</script>
-				-->
 			</div>
 		</header>
 
