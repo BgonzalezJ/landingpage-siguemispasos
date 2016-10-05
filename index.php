@@ -258,13 +258,15 @@
 			$(".social a").click(function (e) {
 				e.preventDefault();
 				var link = "http://siguemispasos.cl/";
-				if ($(this).data("url"))
+				var mensaje = "Ayúdanos a prevenir el cáncer de mama con un aporte voluntario. #SigueMisPasos";
+				if ($(this).data("url")) {
 					link = $(this).data("url");
+					mensaje = "¿Cuánto sabes realmente sobre el cáncer de mama? Conversa. Pregunta. Infórmate. #SigueMisPasos";
+				}
 
 				if ($(this).hasClass("t")) {
-					mensaje = "Ayúdanos a prevenir el cáncer de mama con un aporte voluntario";
 					url = encodeURIComponent(link);
-
+					mensaje = encodeURIComponent(mensaje);
 					var urlTwitter = 'https://twitter.com/intent/tweet?text=';
 					urlTwitter = urlTwitter + mensaje;
 					urlTwitter = urlTwitter +'&url=' + url;
