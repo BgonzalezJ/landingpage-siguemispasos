@@ -162,22 +162,22 @@
 
 		<!-- Ocultaremos este contenido mientras no exista -->
 		
-		<div id="video-corto" class="slide">
+		<div id="video-corto" class="slide" style="background: url(../images/bg-video-2.jpg) no-repeat center center #000;">
 			<div class="cortina">
 				<div class="wrap">
 					<a class="play-video" href=""></a>
 					<h3>Video de FALP reúne a 14 reconocidas chilenas<br/>para hablar sobre el cáncer de mama</h3>
 					<div class="social">
 						<p>Compártelo ahora con tus amigos</p>
-						<a class="btn f" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/" ></a>
-						<a class="btn t" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/"></a>
+						<a class="btn f" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1409083822452610/" ></a>
+						<a class="btn t" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1409083822452610/"></a>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div id="video-fb">
-			<div class="fb-video" data-href="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/" data-width="500" data-show-text="false"></div>	
+			<div class="fb-video" data-href="https://www.facebook.com/Falpcomunicaciones/videos/1409083822452610/" data-width="500" data-show-text="false"></div>	
 		</div>
 
 		<div id="info-video-mobile">
@@ -186,8 +186,8 @@
 				<h3>Video de FALP reúne a 14 reconocidas chilenas para hablar sobre el cáncer de mama</h3>
 				<div class="social">
 					<p>Compártelo ahora con tus amigos</p>
-					<a class="btn f" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/" ></a>
-					<a class="btn t" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1408874019140257/" ></a>
+					<a class="btn f" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1409083822452610/" ></a>
+					<a class="btn t" href="" data-url="https://www.facebook.com/Falpcomunicaciones/videos/1409083822452610/" ></a>
 				</div>
 			</div>
 		</div>
@@ -200,7 +200,7 @@
 				</div>
 				<div class="blabla">
 					<p>FALP lleva más de 60 años trabajando en la prevención, investigación, docencia, detección temprana, diagnóstico, tratamiento y protección financiera y beneficencia del cáncer. FALP cuenta con una amplia experiencia en la lucha contra el cáncer y prestigio a nivel nacional e internacional.</p>
-					<p><a href="">Conoce más de Falp aquí</a></p>
+					<p><a href="http://juntosfalp.cl/mama/" target="_blank">Conoce más sobre el cáncer de mama.</a></p>
 				</div>
 			</div>
 		</div>
